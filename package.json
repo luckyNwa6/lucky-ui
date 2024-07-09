@@ -1,0 +1,27 @@
+{
+  "name": "luckynwa-lib",
+  "version": "1.0.0",
+  "description": "luckyNwa component library ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C ./packages/lucky/ dev",
+    "build": "pnpm -C ./packages/lucky/ build",
+    "build:button": "pnpm -C ./packages/vi-button/ build:es",
+    "build:star": "pnpm -C ./packages/vi-star/ build:es",
+    "build:clock": "pnpm -C ./packages/vi-clock/ build:es",
+    "build:word": "pnpm -C ./packages/vi-word/ build:es",
+    "build:mouse": "pnpm -C ./packages/vi-mouse/ build:es",
+    "fast": "pnpm -C ./packages/vi-button/ build:es && pnpm -C ./packages/lucky/ dev",
+    "test": "yarn --cwd ./test_vue run serve"
+  },
+  "author": "luckyNwa",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "vue": "2.6.14",
+    "vue-server-renderer": "2.6.14"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "2.6.14"
+  }
+}

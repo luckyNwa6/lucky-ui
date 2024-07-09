@@ -1,0 +1,118 @@
+
+.lucky-word-normal[data-v-5ad1c23c] {
+  /* 加上 -webkit- 注意兼容 */
+  font-size: 1.5rem;
+  display: inline;
+  text-align: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top, right top,
+    from(#f782a9),
+    color-stop(10%, #b48bd9),
+    color-stop(40%, #4ed9ab),
+    color-stop(60%, #ffd26b),
+    color-stop(90%, #f782a9),
+    to(#f782a9)
+  );
+  background-image: linear-gradient(
+    to right,
+    #f782a9 0%,
+    #b48bd9 10%,
+    #4ed9ab 40%,
+    #ffd26b 60%,
+    #f782a9 90%,
+    #f782a9 100%
+  );
+  background-size: 200% auto;
+  color: #000;
+  font-size: 5rem;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine-data-v-5ad1c23c 10s linear infinite;
+          animation: shine-data-v-5ad1c23c 10s linear infinite;
+  font-family: dancing script, cursive;
+  font-weight: 700;
+}
+@-webkit-keyframes shine-data-v-5ad1c23c {
+to {
+    background-position: 200% center;
+}
+}
+@keyframes shine-data-v-5ad1c23c {
+to {
+    background-position: 200% center;
+}
+}
+/* 下面是悬浮时候的特效 */
+.lucky-word-hover[data-v-5ad1c23c] {
+  /* 加上 -webkit- 注意兼容 */
+  font-size: 1.5rem;
+  display: inline;
+  text-align: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top, right top,
+    from(#f782a9),
+    color-stop(10%, #b48bd9),
+    color-stop(40%, #4ed9ab),
+    color-stop(60%, #ffd26b),
+    color-stop(90%, #f782a9),
+    to(#f782a9)
+  );
+  background-image: linear-gradient(
+    to right,
+    #f782a9 0%,
+    #b48bd9 10%,
+    #4ed9ab 40%,
+    #ffd26b 60%,
+    #f782a9 90%,
+    #f782a9 100%
+  );
+  background-size: 200% auto;
+  color: #000;
+  font-size: 5rem;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine-data-v-5ad1c23c 10s linear infinite;
+          animation: shine-data-v-5ad1c23c 10s linear infinite;
+  font-family: dancing script, cursive;
+  font-weight: 700;
+}
+.lucky-word-hover[data-v-5ad1c23c]:hover {
+  -webkit-animation: animate-data-v-5ad1c23c 0.5s linear infinite;
+          animation: animate-data-v-5ad1c23c 0.5s linear infinite;
+}
+@-webkit-keyframes animate-data-v-5ad1c23c {
+0%,
+  25% {
+    text-shadow: 2px 2px 2px #ff6384;
+}
+50% {
+    text-shadow: 2px -2px 2px #d184a8;
+}
+75% {
+    text-shadow: -2px 2px 2px #da74d4;
+}
+100% {
+    text-shadow: -2px -2px 2px #aa2c76;
+}
+}
+@keyframes animate-data-v-5ad1c23c {
+0%,
+  25% {
+    text-shadow: 2px 2px 2px #ff6384;
+}
+50% {
+    text-shadow: 2px -2px 2px #d184a8;
+}
+75% {
+    text-shadow: -2px 2px 2px #da74d4;
+}
+100% {
+    text-shadow: -2px -2px 2px #aa2c76;
+}
+}

@@ -1,0 +1,15 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  opacity: 0.5;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-radius: 5px;
+  background: transparent;
+}
+canvas:hover {
+  opacity: 1;
+}

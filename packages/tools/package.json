@@ -1,0 +1,39 @@
+{
+  "name": "@niweiai-component/tools",
+  "description": "basic tools for virtual nodes",
+  "version": "1.0.0",
+  "author": {
+    "name": "luckyNwa",
+    "email": "1656213092@qq.com.com"
+  },
+  "keniweiaiords": [
+    "vue",
+    "vuejs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://xx.xx.xx.xx:xx"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "files": [
+    "mixins",
+    "utils"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
