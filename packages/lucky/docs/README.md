@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://luckynwa.top/mypic/luckyUi/logo.png
+heroImage: https://imgs.luckynwa.top/luckyUi/logo.png
 actionText: 快速上手 →
 actionLink: /guide/
 features:

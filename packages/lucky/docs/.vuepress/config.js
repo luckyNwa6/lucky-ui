@@ -4,7 +4,7 @@ module.exports = {
   title: 'Lucky-Ui', // 网站的标题
   description: '👻基于Element-Ui搭建的个人组件库💘', // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
   head: [
-    ['link', { rel: 'icon', href: 'https://luckynwa.top/mypic/luckyUi/logo.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签'/imgs/logo.png'
+    ['link', { rel: 'icon', href: 'https://imgs.luckynwa.top/luckyUi/logo.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签'/imgs/logo.png'
   ],
   host: '0.0.0.0',
   port: 3002,
