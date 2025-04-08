@@ -32,7 +32,7 @@ jobs:
       - name: 设置Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 16
           cache: pnpm # 或者 pnpm / yarn
       - name: 设置Pages
         uses: actions/configure-pages@v4
