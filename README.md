@@ -64,9 +64,6 @@ npm install -g pnpm
 # 查看源
 pnpm config get registry
 
-# 切换公司远程仓库
-pnpm config set registry http://192.168.6.13:8082/repository/npm_all/
-
 
 # -S  默认写入dependencies
 pnpm add -S [packageName]
@@ -102,3 +99,9 @@ PNPM 中文官网：https://www.pnpm.cn/motivation
 
 
 ```
+
+## 展示
+
+![](https://imgs.luckynwa.top/profile/mdS/QQ20250408-170913.png)
+
+![](https://imgs.luckynwa.top/profile/mdS/QQ20250408-170926.png)

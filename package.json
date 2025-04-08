@@ -4,6 +4,8 @@
   "description": "luckyNwa component library ",
   "main": "index.js",
   "scripts": {
+    "node16": "nvm use 16",
+    "i": "pnpm install --registry=https://registry.npmmirror.com",
     "dev": "pnpm -C ./packages/lucky/ dev",
     "build": "pnpm -C ./packages/lucky/ build",
     "build:button": "pnpm -C ./packages/vi-button/ build:es",
